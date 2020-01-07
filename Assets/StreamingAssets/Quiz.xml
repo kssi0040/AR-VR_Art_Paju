@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Quiz>
+  <List>       
+    <OptQuiz>
+      <InitQuizInfo ID="0">
+        <Question>Q1. 환경조각은 어떤 장소에서 흔히 찾아볼 수 있을까요?</Question>
+        <OrderPanel>
+          <InitItem ID="0" Name="Item0">
+            <Text>① 건물 앞, 공원 등과 같이 대중이 쉽게 접할 수 있는 공공장소</Text>
+          </InitItem>
+          <InitItem ID="1" Name="Item1">
+            <Text>② 미술관 또는 박물관의 내부 전시 공간</Text>
+          </InitItem>         
+        </OrderPanel>
+        <AnswerList>
+          <InitAnswer ID="0" Answer="① 건물 앞, 공원 등과 같이 대중이 쉽게 접할 수 있는 공공장소"/>
+        </AnswerList>
+      </InitQuizInfo>
+      <InitQuizInfo ID="1">
+        <Question>Q2. 벽화와 같은 공공미술의 의의에 대한 설명으로 적절하지 않은 것을 고르시오.</Question>
+        <OrderPanel>
+          <InitItem ID="0" Name="Item0">
+            <Text>① 지역 구성원들의 공동체 의식이 형성될 수 있다.</Text>
+          </InitItem>
+          <InitItem ID="1" Name="Item1">
+            <Text>② 지역을 대표하는 정체성으로 자리매김될 수 있다.</Text>
+          </InitItem>
+          <InitItem ID="2" Name="Item2">
+            <Text>③ 혼자 작업하더라도 공공의 장소에 작업하는 것이므로 공공성을 가질 수 있다.</Text>
+          </InitItem>
+        </OrderPanel>
+        <AnswerList>
+          <InitAnswer ID="0" Answer="③ 혼자 작업하더라도 공공의 장소에 작업하는 것이므로 공공성을 가질 수 있다."/>
+        </AnswerList>
+      </InitQuizInfo>
+    </OptQuiz>
+    <Typing1Quiz>
+      <InitQuizInfo ID="0">
+        <Question>Q2. 다음의 설명이 옳은지 O/X로 표시해 봅시다. 공공미술은 상업적인 이익을 위한 이미지 제작 활동이다. (O/X는 대문자로 작성해주세요.)</Question>
+        <AnswerList>
+          <InitAnswer ID="0" Answer="X"/>
+        </AnswerList>
+      </InitQuizInfo>
+    </Typing1Quiz>
+    <Typing2Quiz>
+      <InitQuizInfo ID="0">
+        <Question>
+          Q1. 벽화의 제작 과정을 순서대로 나열하시오.(숫자만 작성해주세요.)
+          [보기] 1. 벽화 제작하기/ 2. 기획 회의하기 / 3. 사전 조사 및 계획하기 / 4. 재점검하기
+        </Question>
+        <AnswerList>
+          <InitAnswer ID="0" Answer="2"/>
+          <InitAnswer ID="1" Answer="3"/>
+          <InitAnswer ID="2" Answer="1"/>
+          <InitAnswer ID="3" Answer="4"/>
+        </AnswerList>
+      </InitQuizInfo>
+    </Typing2Quiz>
+  </List> 
+</Quiz>
