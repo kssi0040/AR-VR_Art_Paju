@@ -2530,6 +2530,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue: {fileID: 0}
+  stagePlay: {fileID: 0}
+  m_Scrollbar: {fileID: 0}
+  Delay: 0.1
 --- !u!4 &1127150017
 Transform:
   m_ObjectHideFlags: 0
@@ -3409,9 +3412,11 @@ MonoBehaviour:
   ARController: {fileID: 0}
   Guide: {fileID: 0}
   m_Camera: {fileID: 519326979}
+  player: {fileID: 0}
   RotateGame: {fileID: 0}
   SwipeCount: 0
   BlurClear: 0
+  m_Scrollbar: {fileID: 0}
 --- !u!4 &1510390696
 Transform:
   m_ObjectHideFlags: 0

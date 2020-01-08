@@ -126,6 +126,7 @@ public class ScrollRectSnap : MonoBehaviour
             if (Quiz_XML_Reader.Instance.readCompleted == true && XML_Reader.Instance.readCompleted == true)
             {
                 SceneManager.LoadScene("Stage1");
+                //Debug.Log("11111");
             }
         }
         else if (1 == iMinButtonNum)
@@ -134,6 +135,7 @@ public class ScrollRectSnap : MonoBehaviour
             if (Quiz_XML_Reader.Instance.readCompleted == true && XML_Reader.Instance.readCompleted == true)
             {
                 SceneManager.LoadScene("Stage2");
+                
             }
         }
         else if (2 == iMinButtonNum)
@@ -157,6 +159,28 @@ public class ScrollRectSnap : MonoBehaviour
     public void HomeButtonEvent()
     {
         SceneManager.LoadScene("Start");
+    }
+
+
+    public void MapButtonEvent()
+    {
+        if (0 == iMinButtonNum)
+        {
+            //36.895005, 126.206617
+            string strUrl = "https://www.google.com/maps/place/%EC%9E%84%EC%A7%84%EA%B0%81+%ED%8F%89%ED%99%94%EB%88%84%EB%A6%AC%EA%B3%B5%EC%9B%90/@37.8920736,126.741526,17.29z/data=!4m5!3m4!1s0x357cf22deb81b203:0xa1f289873f84d1a2!8m2!3d37.8922482!4d126.7430603";
+            Application.OpenURL(strUrl);
+        }
+        else if (1 == iMinButtonNum)
+        {
+            string strUrl = "https://www.google.com/maps/place/%EB%B2%BD%ED%99%94%EB%A7%88%EC%9D%84/@37.8484142,126.8705514,18z/data=!3m1!4b1!4m5!3m4!1s0x357cebf93c67927d:0xfd9b164d5b68ef31!8m2!3d37.8484121!4d126.8716457";
+            Application.OpenURL(strUrl);
+        }
+        else if (2 == iMinButtonNum)
+        {
+            //36.845262, 126.196726            
+            //string strUrl = "https://www.google.com/maps/place/36.835972,126.195911";
+            //Application.OpenURL(strUrl);
+        }
     }
 
 
